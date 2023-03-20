@@ -1,0 +1,18 @@
+@import "login.css";
+
+.qsa-logo {
+    width: 350px;
+    height: 100px;
+}
+
+.qsa-btn {
+    background-color : #FFDD00;
+    border-color: #FFDD00;
+    color : black;
+}
+
+.qsa-btn:hover {
+    background-color: #a28b00;
+    border-color: #a28b00;
+    color: white;
+}

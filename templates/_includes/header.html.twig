@@ -1,0 +1,9 @@
+<header>
+    <div class="d-flex justify-content-center">
+        <img src="{{ asset('assets/img/LOGO-QSA-CONSEIL.png') }}" class="qsa-logo" alt="Logo QSA">
+    </div>
+    {% if app.user %}
+        <a href="{{ path('app_home') }}">Toutes vos analyses</a>
+        <a href="{{ path('app_home') }}">Envoyer de nouvelles analyse</a>
+    {% endif %}
+</header>
