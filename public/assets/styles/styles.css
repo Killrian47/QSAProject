@@ -1,7 +1,15 @@
 @import "login.css";
+@import "home.css";
+@import "header.css";
+
 body {
     color: #3E3E3E;
 }
+
+a {
+
+}
+
 .qsa-logo {
     margin-top: 25px;
     width: 350px;
@@ -9,9 +17,9 @@ body {
 }
 
 .qsa-btn {
-    background-color : #FFDD00;
+    background-color: #FFDD00;
     border-color: #FFDD00;
-    color : black;
+    color: black;
 }
 
 .qsa-btn:hover {
