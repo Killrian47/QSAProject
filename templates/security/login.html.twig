@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Se connecter | QSA Conseil Espace Client{% endblock %}
+{% block title %}Se connecter {{ parent() }} {% endblock %}
 
 {% block body %}
     <form method="post">
@@ -24,6 +24,10 @@
 
 
                 <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+
+                <div class="mt-3 ">
+                    <i>Vous n'êtes pas encore inscrit ? <a href="{{ path('app_register') }}">Inscrivez-vous</a></i>
+                </div>
 
                 <button class="btn btn-primary mt-3 qsa-btn" type="submit">Se connecter</button>
             </div>

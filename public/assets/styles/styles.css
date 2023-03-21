@@ -1,6 +1,9 @@
 @import "login.css";
-
+body {
+    color: #3E3E3E;
+}
 .qsa-logo {
+    margin-top: 25px;
     width: 350px;
     height: 100px;
 }
